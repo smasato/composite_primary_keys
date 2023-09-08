@@ -135,8 +135,6 @@ Finally, to run tests:
 
   rake postgresql:test
 
-Travis build status: {<img src="https://travis-ci.com/composite-primary-keys/composite_primary_keys.svg" alt="Build Status" />}[https://travis-ci.com/composite-primary-keys/composite_primary_keys]
-
 === DB2
 
 DB2 is no longer supported due to difficulties in getting the ibm_db2 gem to build.  Thus tests
@@ -146,6 +144,8 @@ have not been run against db2.
 
 MariaDb is fully supported with all tests passing.
 
+GitHub Actions build status: {rdoc-image:https://github.com/composite-primary-keys/composite_primary_keys/actions/workflows/mariadb.yml/badge.svg?branch=master}[https://github.com/composite-primary-keys/composite_primary_keys/actions/workflows/mariadb.yml?query=branch=master]
+GitHub Actions build status: {rdoc-image:https://github.com/composite-primary-keys/composite_primary_keys/actions/workflows/mysql   .yml/badge.svg?branch=master}[https://github.com/composite-primary-keys/composite_primary_keys/actions/workflows/mqsql.yml?query=branch=master]
 === Oracle
 
 Oracle is fully supported with all tests passing.
@@ -153,6 +153,8 @@ Oracle is fully supported with all tests passing.
 === Postgresql
 
 Postgresql is fully supported with all tests passing.
+
+GitHub Actions build status: {rdoc-image:https://github.com/composite-primary-keys/composite_primary_keys/actions/workflows/postgresql.yml/badge.svg?branch=master}[https://github.com/composite-primary-keys/composite_primary_keys/actions/workflows/postgresql.yml?query=branch=master]
 
 === Sqlite 3
 
@@ -163,6 +165,8 @@ built-in rake task before running tests:
 
 For sqlite3 to work correctly, you must manually require 'composite_primary_keys/connection_adapters/sqlite3_adapter' after
 loading the CPK gem.
+
+GitHub Actions build status: {rdoc-image:https://github.com/composite-primary-keys/composite_primary_keys/actions/workflows/sqlite.yml/badge.svg?branch=master}[https://github.com/composite-primary-keys/composite_primary_keys/actions/workflows/sqlite.yml?query=branch=master]
 
 === SqlServer
 
